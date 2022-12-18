@@ -1,0 +1,12 @@
+---
+title: Simplest Pandoc static wiki
+author: Marc-Alexandre Espiaut
+date: December 18, 2022
+---
+
+= Welcome to your static wiki! =
+
+Maybe you would like to read [[some poetry]], or a [[philosophical essay]]?
+
+Be careful, [[this page]] doesn't exist.
+
