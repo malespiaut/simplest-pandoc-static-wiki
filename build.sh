@@ -9,7 +9,7 @@ cd src || exit
 # For each files in the src/ directory, run the Pandoc command
 for file in *
 do
-  [[ -e "$file" ]] || break  # Handles the case of no files
+  [ -e "$file" ] || break  # Handles the case of no files
   pandoc --standalone --table-of-content --from mediawiki --to html --output ../out/"$file" "$file"
   echo "$file"
 done
